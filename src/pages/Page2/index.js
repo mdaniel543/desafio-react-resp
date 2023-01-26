@@ -1,4 +1,4 @@
-import logo from '../../logo.svg';
+import logo from '../../Icono.png';
 import './style.css';
 import { Link } from 'react-router-dom';
 
@@ -8,27 +8,19 @@ export function PageTwo() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Contenido de la página 2 en <code>src/App.js</code>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
 
       <div className="App-line"></div>
       
       <main className="App-main">
         <p>
-          Page 2
+          Página 2
         </p>
 
         <Link to="/" className="App-link">
-          Previous Page
+          Anterior
         </Link>
       </main>
     </div>

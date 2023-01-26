@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+DESAFÍO DE CODIFICACIÓN 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+REACT Introducción 
 
-## Available Scripts
+Creará un video de grabación de pantalla completando el desafío, luego enviar un enlace al archivo a través de Google Drive o One Drive. 
 
-In the project directory, you can run:
+Algunas cosas para considerar: 
 
-### `yarn start`
+- Le pedimos que complete este desafío dentro del plazo acordado en nuestra conversación. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- NO DEBE editar el video, detenerlo y continuar más tarde, usar una segunda pantalla, copiar contenido de pantallas ocultas o cualquier cosa similar que pueda considerarse trampa. La grabación debe ser sin pausas y sin edición. ** 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **DEBE mostrar el reloj del sistema operativo durante toda la grabación. 
 
-### `yarn test`
+Por favor, no maximice su pantalla de forma que el reloj de su sistema operativo quede oculto. Mantenlo siempre visible.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+** - Puede usar un software de grabación de pantalla como Screenrec, QuickTime o algo similar para grabar el video. 
 
-### `yarn build`
+- La grabación debe ser de todo el desafío de codificación, de principio a fin, que dura aproximadamente 1 hora. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Cargue el archivo de video en Google Drive o One Drive y comparta un enlace abierto con nosotros (soportamos .mp4, archivos más pequeños/con menos de 4 gb). 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- A medida que complete el desafío, explique lo que está haciendo. Guíenos en su pensamiento, explique sus decisiones, etc. Muéstrenos su trabajo de interfaz de usuario, si corresponde. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Empezando 
 
-### `yarn eject`
+1. Instale Visual Studio Code
+2. Clone este Repositorio
+3. Abra la carpeta del proyecto y comience
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Resumen Para este desafío de código, el candidato clonará y configurará una aplicación en React. El repositorio contient dos rutas pero sin funcionalidad real creada. El candidato demostrará toda su experiencia en la creación de aplicaciones con el marco Javascript y React y sus habilidades para resolver problemas. 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Requisitos 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1.  Crear hook que pueda recuperar la información desde https://picsum.photos/v2/list
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+2.  Mostrar las imágenes en un carrusel de forma aleatoria en la primera página en /home/index.js, las cuales permanecerán visibles en 10 segundos
 
-## Learn More
+3.  Si el usuario desea seleccionar la imagen mostrada, dará clic en la fotografía y la aplicación lo guiará a la página 2
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4.  En la página 2 ampliará la imagen y el usuario podrá escribirle título y descripción y luego lo guiará a la página 1 para que continue el proceso.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5.  Esto se almacenará en un listado de imágenes que tienen título y descripción para su posterior consulta
 
-### Code Splitting
+## Opcional
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+6. En una tercera página mostrar la lista de imágenes almacenadas con título y descripción con la posibilidad de edición y eliminación
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
